@@ -10,14 +10,19 @@ export function App() {
         allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
         referrerpolicy="strict-origin-when-cross-origin"
         allowFullScreen
-        className="h-[600px] w-auto aspect-video"
+        className="max-h-[600px] w-auto aspect-video"
       ></iframe>
 
-      <div className="flex flex-col ">
+      <div className="flex flex-col">
         <p>
-          можете посмотреть на наш аналог <a>фижмы</a>
+          можете посмотреть на наш аналог{" "}
+          <a href="https://kidcanvas.skrinkaznan.com/" className="w-fit">
+            фижмы
+          </a>
         </p>
-        <a>оригинальная</a>
+        <a href="https://figma.com" className="w-fit mx-auto">
+          оригинальная
+        </a>
       </div>
     </div>
   );
